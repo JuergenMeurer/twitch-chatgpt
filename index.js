@@ -69,13 +69,13 @@ if (!CHANNELS) {
     CHANNELS = CHANNELS.split(",")
 }
 if (!SEND_USERNAME) {
-    SEND_USERNAME = "true"
+    SEND_USERNAME = true
 }
 if (!ENABLE_TTS) {
-    ENABLE_TTS = "false"
+    ENABLE_TTS = false
 }
 if (!ENABLE_CHANNEL_POINTS) {
-    ENABLE_CHANNEL_POINTS = "false";
+    ENABLE_CHANNEL_POINTS = false
 }
 
 // init global variables
