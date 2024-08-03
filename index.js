@@ -70,17 +70,17 @@ if (!CHANNELS) {
 }
 if (!SEND_USERNAME || SEND_USERNAME == "true") {
     SEND_USERNAME = true
-else
+} else {
     SEND_USERNAME = false
 }
 if (!ENABLE_TTS || ENABLE_TTS == "false") {
     ENABLE_TTS = false
-else
+} else {
     ENABLE_TTS = true
 }
 if (!ENABLE_CHANNEL_POINTS || ENABLE_CHANNEL_POINTS == "false") {
     ENABLE_CHANNEL_POINTS = false
-else
+} else {
     ENABLE_CHANNEL_POINTS = true
 }
 
