@@ -160,7 +160,7 @@ bot.onMessage(async (channel, user, message, self) => {
         } else {
             bot.say(channel, response);
         }
-        if (ENABLE_TTS === "true") {
+        if (ENABLE_TTS) {
             try {
                 console.log(user.username + ' - ' + user.userstate);
                 const ttsAudioUrl = await bot.sayTTS(channel, response, user.userstate);
